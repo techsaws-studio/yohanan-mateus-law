@@ -24,7 +24,7 @@ function ContactUsPage() {
         </div>
 
         <div className="absolute bottom-0 left-0 w-full h-[12px] bg-primary" />
-      </section>
+      </section> 
 
       <section className="section-margin-standard layout-standard flex flex-col gap-8">
         <p className="lg:text-lg md:text-base text-sm max-lg:leading-[1.7] text-foreground font-medium">
