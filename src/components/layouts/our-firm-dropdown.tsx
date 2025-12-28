@@ -42,7 +42,7 @@ export function OurFirmDropdown() {
       >
         <div
           className={cn(
-            "bg-secondary-background border border-border rounded-lg overflow-hidden shadow-[0_12px_32px_rgba(0,0,0,0.12)]",
+            "relative bg-secondary-background border border-border rounded-lg overflow-hidden shadow-[0_12px_32px_rgba(0,0,0,0.12)] !z-[9999]",
             "origin-top transform transition-all duration-300 ease-out",
             open
               ? "opacity-100 translate-y-0 scale-100"
