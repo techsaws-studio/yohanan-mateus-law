@@ -131,17 +131,6 @@ function Header() {
             Alumni Network
           </Link>
           <Link
-            href={"/careers"}
-            passHref
-            className={cn(
-              pathname === "/careers"
-                ? "text-primary underline underline-offset-4"
-                : ""
-            )}
-          >
-            Careers
-          </Link>
-          <Link
             href={"/our-diverse-culture"}
             passHref
             className={cn(

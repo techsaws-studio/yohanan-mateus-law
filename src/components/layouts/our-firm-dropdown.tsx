@@ -56,11 +56,11 @@ export function OurFirmDropdown() {
             <DropdownItem href="/alumni-network" pathname={pathname}>
               Alumni Network
             </DropdownItem>
-            <DropdownItem href="/careers" pathname={pathname}>
-              Careers
-            </DropdownItem>
             <DropdownItem href="/our-diverse-culture" pathname={pathname}>
               Our Diverse Culture
+            </DropdownItem>
+            <DropdownItem href="/contact-us" pathname={pathname}>
+              Contact Us
             </DropdownItem>
           </ul>
         </div>
