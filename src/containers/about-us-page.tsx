@@ -135,63 +135,62 @@ const AccoladesData = [
 
 const BoardMembers = [
   {
-    name: "Douglas K. Anning",
-    title: "Shareholder",
+    name: "Michael R. Bennett",
+    title: "Managing Partner",
     image: AboutUsPageLeadershipImgBoardMember01,
   },
   {
-    name: "Jane E. Arnold",
-    title: "Business Department Co-Chair",
+    name: "Sarah L. Whitman",
+    title: "Corporate & Business Practice Lead",
     image: AboutUsPageLeadershipImgBoardMember02,
   },
   {
-    name: "Vivian C. Grigorians",
-    title: "Real Estate Finance Vice Chair",
+    name: "Daniel A. Romero",
+    title: "Real Estate Practice Lead",
     image: AboutUsPageLeadershipImgBoardMember03,
   },
   {
-    name: "Amy Kiefer Hansen",
-    title: "Shareholder",
+    name: "Emily K. Foster",
+    title: "Partner",
     image: AboutUsPageLeadershipImgBoardMember04,
   },
   {
-    name: "Amy E. Hatch",
-    title: "Financial Services Litigation Chair",
-    image: AboutUsPageLeadershipImgBoardMember05,
-  },
-  {
-    name: "Kolin B. Holladay",
-    title: "Business Department Co-Chair",
+    name: "Jonathan P. Mills",
+    title: "Litigation Practice Lead",
     image: AboutUsPageLeadershipImgBoardMember06,
   },
   {
-    name: "Paul J. Jaskot",
-    title: "Shareholder",
+    name: "Rebecca T. Collins",
+    title: "Business Transactions Partner",
+    image: AboutUsPageLeadershipImgBoardMember05,
+  },
+  {
+    name: "Andrew M. Hayes",
+    title: "Partner",
     image: AboutUsPageLeadershipImgBoardMember07,
   },
   {
-    name: "Lisa S. Katz",
-    title: "Shareholder",
+    name: "Laura S. Kaplan",
+    title: "Financial Services Partner",
     image: AboutUsPageLeadershipImgBoardMember08,
   },
   {
-    name: "Kraig M. Kohring",
-    title: "Real Estate & Financial Services Department Chair",
+    name: "Christopher J. Nolan",
+    title: "Real Estate & Finance Partner",
     image: AboutUsPageLeadershipImgBoardMember09,
   },
   {
-    name: "Matthew J. Murer",
-    title:
-      "Health Care, Public Policy & Government Investigations Department Chair",
-    image: AboutUsPageLeadershipImgBoardMember10,
-  },
-  {
-    name: "Farah S. Nicol",
-    title: "Litigation Department Chair",
+    name: "Natalie R. Brooks",
+    title: "Regulatory & Compliance Practice Lead",
     image: AboutUsPageLeadershipImgBoardMember11,
   },
   {
-    name: "John Peterson",
+    name: "Omar H. Siddiqui",
+    title: "Litigation Partner",
+    image: AboutUsPageLeadershipImgBoardMember10,
+  },
+  {
+    name: "David L. Monroe",
     title: "Office Managing Partner",
     image: AboutUsPageLeadershipImgBoardMember12,
   },
