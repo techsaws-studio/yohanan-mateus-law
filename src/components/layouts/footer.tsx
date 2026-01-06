@@ -66,6 +66,18 @@ function Footer() {
               Contact Us
             </Link>
             <Link
+              href={"/news"}
+              passHref
+              className={cn(
+                pathname === "/news"
+                  ? "text-primary"
+                  : "hover:text-white/80 text-white",
+                "hover:scale-105 animation-standard underline underline-offset-4"
+              )}
+            >
+              News
+            </Link>
+            <Link
               href={"/disclaimer"}
               passHref
               className={cn(

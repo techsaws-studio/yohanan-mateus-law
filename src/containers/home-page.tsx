@@ -9,10 +9,10 @@ import { WhiteHeadlineTile } from "@/components/partials/white-headline-tile";
 
 import Attorney01Img from "../../public/images/about-us-page-leadership-img-board-member-05.jpg";
 import Attorney02Img from "../../public/images/about-us-page-leadership-img-board-member-06.webp";
-import Attorney03Img from "../../public/images/our-people-page-attorney-07-img.jpg";
-import Attorney04Img from "../../public/images/our-people-page-attorney-09-img.jpg";
-import Attorney05Img from "../../public/images/our-people-page-attorney-04-img.webp";
-import Attorney06Img from "../../public/images/our-people-page-attorney-02-img.png";
+import Attorney03Img from "../../public/images/our-people-page-newest-attorney-02-img.jpg";
+import Attorney04Img from "../../public/images/our-people-page-newest-attorney-03-img.webp";
+import Attorney05Img from "../../public/images/our-people-page-newest-attorney-05-img.jpg";
+import Attorney06Img from "../../public/images/our-people-page-newest-attorney-02-img.jpg";
 import { ChevronRight } from "lucide-react";
 import DifferenceAtWorkImg01 from "../../public/images/difference-at-work-img-01.jpg";
 import DifferenceAtWorkImg02 from "../../public/images/difference-at-work-img-02.jpg";
