@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 
-import OurPeopleGroupImg from "../../public/images/our-attorney-img.png";
 import FirmHighlights from "@/components/partials/firm-highlights";
 
 function OurPeoplePage() {
@@ -65,9 +64,11 @@ function OurPeoplePage() {
           {/* RIGHT — IMAGE */}
           <div className="relative w-full overflow-hidden rounded-3xl bg-muted">
             <Image
-              src={OurPeopleGroupImg}
+              src="/images/our-people-page-attorney-01-img.webp"
               alt="Yohanan Mateus Law – Our Attorneys"
               className="w-full h-auto object-cover"
+              width={600}
+              height={400}
               priority
             />
           </div>
