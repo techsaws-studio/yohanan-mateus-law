@@ -7,12 +7,12 @@ import { AnimatedImageTile } from "@/components/partials/animated-image-tile";
 import { RedTextTile } from "@/components/partials/red-text-tile";
 import { WhiteHeadlineTile } from "@/components/partials/white-headline-tile";
 
-import Attorney01Img from "../../public/images/about-us-page-leadership-img-board-member-05.jpg";
-import Attorney02Img from "../../public/images/about-us-page-leadership-img-board-member-06.webp";
+import Attorney01Img from "../../public/images/about-us-page-leadership-img-board-member-01.jpeg";
+import Attorney02Img from "../../public/images/about-us-page-leadership-img-board-member-02.jpg";
 import Attorney03Img from "../../public/images/our-people-page-newest-attorney-02-img.jpg";
 import Attorney04Img from "../../public/images/our-people-page-newest-attorney-03-img.webp";
-import Attorney05Img from "../../public/images/our-people-page-newest-attorney-05-img.jpg";
-import Attorney06Img from "../../public/images/our-people-page-newest-attorney-02-img.jpg";
+import Attorney05Img from "../../public/images/our-people-page-newest-attorney-04-img.jpg";
+import Attorney06Img from "../../public/images/our-people-page-newest-attorney-05-img.jpg";
 import { ChevronRight } from "lucide-react";
 import DifferenceAtWorkImg01 from "../../public/images/difference-at-work-img-01.jpg";
 import DifferenceAtWorkImg02 from "../../public/images/difference-at-work-img-02.jpg";
