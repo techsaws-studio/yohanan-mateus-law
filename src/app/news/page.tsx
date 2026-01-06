@@ -6,7 +6,7 @@ export default function Page() {
     <main>
       {/* ================= HERO (SAME AS OTHERS) ================= */}
       <section className="relative w-full h-[220px] md:h-[300px] lg:h-[480px] overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/news-page-img.jpg')] bg-cover bg-center" />
+        <div className="absolute inset-0 bg-[url('/images/news-img.jpg')] bg-cover bg-center" />
         <div className="absolute inset-0 bg-black/60" />
 
         <div className="relative z-10 h-full layout-standard flex items-end md:pb-16 pb-8">

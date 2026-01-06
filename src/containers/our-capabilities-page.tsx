@@ -6,6 +6,11 @@ import { ChevronDown } from "lucide-react";
 import { useState } from "react";
 import FirmHighlights from "@/components/partials/firm-highlights";
 
+import Attorney01Img from "../../public/images/our-people-page-attorney-01-img.webp";
+import Attorney02Img from "../../public/images/our-people-page-attorney-02-img.png";
+import Attorney03Img from "../../public/images/our-people-page-attorney-03-img.webp";
+import Attorney04Img from "../../public/images/our-people-page-attorney-04-img.webp";
+
 /* -----------------------------
    ROUTE MAP (EXPLICIT ONLY)
 ------------------------------ */
@@ -51,10 +56,10 @@ const PRACTICE_AREA_ROUTES: Record<string, string> = {
 ------------------------------ */
 
 const teamMembers = [
-  { id: 1, image: "/professional-man-with-glasses-beard.jpg" },
-  { id: 2, image: "/professional-woman-dark-hair.png" },
-  { id: 3, image: "/professional-man-in-suit-blue-shirt.jpg" },
-  { id: 4, image: "/professional-woman-in-yellow-blazer.jpg" },
+  { id: 1, image: Attorney01Img },
+  { id: 2, image: Attorney02Img },
+  { id: 3, image: Attorney03Img },
+  { id: 4, image: Attorney04Img },
 ];
 
 const practiceAreas = {
