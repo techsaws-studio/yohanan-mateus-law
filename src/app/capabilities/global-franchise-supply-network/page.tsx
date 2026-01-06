@@ -4,7 +4,7 @@ export default function GlobalFranchiseSupplyNetworkPage() {
   return (
     <main>
       {/* HERO */}
-      <section className="relative w-full h-[220px] md:h-[300px] lg:h-[480px] overflow-hidden">
+      <section className="relative w-full h-[220px] md:h-[300px] lg:h-[400px] overflow-hidden">
         <div className="absolute inset-0 bg-[url('/capability/capability-universal-img.jpg')] bg-cover bg-center" />
         <div className="absolute inset-0 bg-black/60" />
 

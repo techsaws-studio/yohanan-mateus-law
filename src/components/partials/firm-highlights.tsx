@@ -44,41 +44,36 @@ const highlights: Highlight[] = [
 
 export default function FirmHighlights() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const totalPages = Math.ceil(highlights.length / 2);
 
-  const handlePrevious = () => {
-    setCurrentIndex(
-      (prev) =>
-        (prev - 1 + Math.ceil(highlights.length / 2)) %
-        Math.ceil(highlights.length / 2)
-    );
-  };
+  const handlePrevious = () =>
+    setCurrentIndex((prev) => (prev - 1 + totalPages) % totalPages);
 
-  const handleNext = () => {
-    setCurrentIndex((prev) => (prev + 1) % Math.ceil(highlights.length / 2));
-  };
+  const handleNext = () => setCurrentIndex((prev) => (prev + 1) % totalPages);
 
   const leftHighlight = highlights[currentIndex * 2];
   const rightHighlight = highlights[currentIndex * 2 + 1];
 
   return (
-    <section className="py-20 px-[100px] bg-white">
-      <div className=" mx-auto">
-        {/* Header with Navigation */}
-        <div className="flex justify-between items-center mb-12">
-          <h2 style={{ fontSize: "62px" }} className="font-light text-gray-800">
+    <section className="bg-white py-16 sm:py-20 px-5 sm:px-8 lg:px-[100px]">
+      <div className="mx-auto max-w-[1600px]">
+        {/* Header */}
+        <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between mb-12">
+          <h2 className="font-light text-gray-800 text-[38px] sm:text-[48px] lg:text-[62px]">
             Firm Highlights
           </h2>
+
           <div className="flex gap-4">
             <button
               onClick={handlePrevious}
-              className="w-12 h-12 border-2 border-gray-800 flex items-center justify-center hover:bg-gray-800 hover:text-white transition-colors"
+              className="w-11 h-11 sm:w-12 sm:h-12 border-2 border-gray-800 flex items-center justify-center hover:bg-gray-800 hover:text-white transition-colors"
               aria-label="Previous"
             >
               <ChevronLeft size={20} />
             </button>
             <button
               onClick={handleNext}
-              className="w-12 h-12 border-2 border-gray-800 flex items-center justify-center hover:bg-gray-800 hover:text-white transition-colors"
+              className="w-11 h-11 sm:w-12 sm:h-12 border-2 border-gray-800 flex items-center justify-center hover:bg-gray-800 hover:text-white transition-colors"
               aria-label="Next"
             >
               <ChevronRight size={20} />
@@ -86,77 +81,59 @@ export default function FirmHighlights() {
           </div>
         </div>
 
-        {/* Content Grid */}
-        <div className="grid grid-cols-2 gap-8 divide-x divide-gray-300">
-          {/* Left Column */}
-          <div className="pr-8 flex flex-col justify-between min-h-96">
-            {leftHighlight && (
-              <>
-                <div>
-                  <p
-                    style={{ fontSize: "14px" }}
-                    className="font-semibold tracking-widest text-gray-600 mb-4"
-                  >
-                    {leftHighlight.category}
-                  </p>
-                  <h3
-                    style={{ fontSize: "40px" }}
-                    className="font-light mb-6 text-black hover:text-red-700 transition-colors cursor-pointer"
-                  >
-                    {leftHighlight.title}
-                  </h3>
-                  <p
-                    style={{ fontSize: "20px" }}
-                    className="text-gray-700 leading-relaxed mb-8"
-                  >
-                    {leftHighlight.description}
-                  </p>
-                </div>
-                <a
-                  href="#"
-                  style={{ fontSize: "20px" }}
-                  className="text-red-600 underline hover:text-black transition-colors"
-                >
-                  Read more
-                </a>
-              </>
-            )}
-          </div>
+        {/* Content */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 lg:divide-x lg:divide-gray-300">
+          {/* Left */}
+          {leftHighlight && (
+            <div className="lg:pr-8 flex flex-col justify-between">
+              <div>
+                <p className="text-[12px] sm:text-[14px] font-semibold tracking-widest text-gray-600 mb-3">
+                  {leftHighlight.category}
+                </p>
 
-          {/* Right Column */}
-          <div className="pl-8 flex flex-col justify-between min-h-96">
-            {rightHighlight && (
-              <>
-                <div>
-                  <p
-                    style={{ fontSize: "14px" }}
-                    className="font-semibold tracking-widest text-gray-600 mb-4"
-                  >
-                    {rightHighlight.category}
-                  </p>
-                  <h3
-                    style={{ fontSize: "40px" }}
-                    className="font-light mb-6 text-gray-600 hover:text-red-600 transition-colors cursor-pointer"
-                  >
-                    {rightHighlight.title}
-                  </h3>
-                  <p
-                    style={{ fontSize: "20px" }}
-                    className="text-gray-700 leading-relaxed mb-8"
-                  >
-                    {rightHighlight.description}
-                  </p>
-                </div>
-                <a
-                  href="#"
-                  style={{ fontSize: "20px" }}
-                  className="text-red-600 underline hover:text-black transition-colors pt-[250px]"
-                >
-                  Read more
-                </a>
-              </>
-            )}
-          </div>
+                <h3 className="font-light text-[28px] sm:text-[34px] lg:text-[40px] mb-5 text-black hover:text-red-700 transition-colors cursor-pointer">
+                  {leftHighlight.title}
+                </h3>
+
+                <p className="text-[16px] sm:text-[18px] lg:text-[20px] text-gray-700 leading-relaxed mb-8">
+                  {leftHighlight.description}
+                </p>
+              </div>
+
+              <a
+                href="#"
+                className="text-[16px] sm:text-[18px] lg:text-[20px] text-red-600 underline hover:text-black transition-colors"
+              >
+                Read more
+              </a>
+            </div>
+          )}
+
+          {/* Right */}
+          {rightHighlight && (
+            <div className="lg:pl-8 flex flex-col justify-between">
+              <div>
+                <p className="text-[12px] sm:text-[14px] font-semibold tracking-widest text-gray-600 mb-3">
+                  {rightHighlight.category}
+                </p>
+
+                <h3 className="font-light text-[28px] sm:text-[34px] lg:text-[40px] mb-5 text-gray-600 hover:text-red-600 transition-colors cursor-pointer">
+                  {rightHighlight.title}
+                </h3>
+
+                <p className="text-[16px] sm:text-[18px] lg:text-[20px] text-gray-700 leading-relaxed mb-8">
+                  {rightHighlight.description}
+                </p>
+              </div>
+
+              <a
+                href="#"
+                className="text-[16px] sm:text-[18px] lg:text-[20px] text-red-600 underline hover:text-black transition-colors"
+              >
+                Read more
+              </a>
+            </div>
+          )}
         </div>
       </div>
     </section>

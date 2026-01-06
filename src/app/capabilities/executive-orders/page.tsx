@@ -4,9 +4,9 @@ export default function ExecutiveOrdersPage() {
   return (
     <main>
       {/* ================= HERO ================= */}
-      <section className="relative w-full h-[220px] md:h-[300px] lg:h-[480px] overflow-hidden">
+      <section className="relative w-full h-[220px] md:h-[300px] lg:h-[400px] overflow-hidden">
         <div className="absolute inset-0 bg-[url('/capability/capability-universal-img.jpg')] bg-cover bg-center" />
-        <div className="absolute inset-0 bg-black/60" />
+        <div className="absolute inset-0 " />
 
         <div className="relative z-10 h-full layout-standard flex items-end md:pb-16 pb-8">
           <h1 className="text-white text-4xl md:text-6xl font-light font-heading tracking-tight">

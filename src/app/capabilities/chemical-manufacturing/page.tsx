@@ -1,12 +1,12 @@
 import { Separator } from "@/components/ui/separator";
 
-export default function ChemicalManufacturingPage() {
+export default function Page() {
   return (
     <main>
       {/* ================= HERO ================= */}
-      <section className="relative w-full h-[220px] md:h-[300px] lg:h-[480px] overflow-hidden">
+      <section className="relative w-full h-[220px] md:h-[300px] lg:h-[400px] overflow-hidden">
         <div className="absolute inset-0 bg-[url('/capability/capability-universal-img.jpg')] bg-cover bg-center" />
-        <div className="absolute inset-0 bg-black/60" />
+        <div className="absolute inset-0 " />
 
         <div className="relative z-10 h-full layout-standard flex items-end md:pb-16 pb-8">
           <h1 className="text-white text-4xl md:text-6xl font-light font-heading tracking-tight">
@@ -18,88 +18,149 @@ export default function ChemicalManufacturingPage() {
       </section>
 
       {/* ================= CONTENT ================= */}
-      <section className="layout-standard py-16 max-w-5xl">
-        {/* INTRO */}
-        <div className="space-y-6 text-lg text-paragraph leading-relaxed">
-          <p>
-            Our Chemical Manufacturing practice advises companies operating
-            across the full spectrum of the chemical industry. With decades of
-            experience addressing the operational, regulatory, and commercial
-            challenges faced by chemical manufacturers, our attorneys deliver
-            strategic and practical legal guidance in both routine and
-            high-stakes matters.
-          </p>
+      <section className="layout-standard py-16">
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_360px] gap-16">
+          {/* ================= LEFT COLUMN ================= */}
+          <div className="space-y-12">
+            {/* OVERVIEW */}
+            <div className="space-y-6 text-lg text-paragraph leading-relaxed">
+              <p>
+                Polsinelli’s national chemical manufacturing team has deep
+                experience in virtually all practice areas touching chemical
+                manufacturing. From energy and transportation costs to changes
+                in the regulatory landscape, our team has decades of high-level
+                experience addressing the unique risks and challenges chemical
+                manufacturers face.
+              </p>
 
-          <p>
-            We regularly advise clients on issues ranging from energy and
-            transportation costs to evolving regulatory and compliance
-            requirements. Our team has also served as outside general counsel to
-            large chemical manufacturing businesses, providing integrated legal
-            support aligned with long-term operational and risk-management
-            objectives.
-          </p>
-        </div>
+              <p>
+                We have also served as outside general counsel to large chemical
+                businesses, providing comprehensive legal support aligned with
+                operational realities and long-term business objectives.
+              </p>
+            </div>
 
-        <Separator className="my-12" />
+            <Separator />
 
-        {/* EXPERIENCE OVERVIEW */}
-        <div className="space-y-6 text-lg text-paragraph leading-relaxed">
-          <h2 className="text-3xl font-heading text-heading">
-            High-Level Industry Experience
-          </h2>
+            {/* INDUSTRY EXPERIENCE */}
+            <div className="space-y-6 text-lg text-paragraph leading-relaxed">
+              <h2 className="text-3xl font-heading text-heading">
+                High-Level Chemical Manufacturing Industry Experience
+              </h2>
 
-          <p>
-            Our multidisciplinary team leverages deep industry knowledge to
-            efficiently address the legal needs of chemical manufacturing
-            clients—often in time-sensitive or high-risk situations. We
-            understand the operational significance of each matter we handle and
-            approach every engagement with diligence, precision, and
-            accountability.
-          </p>
+              <p>
+                Our multidisciplinary team leverages deep industry knowledge to
+                efficiently address our chemical manufacturing clients’ legal
+                needs—often in high-stakes situations. We understand the
+                importance of each matter we handle and the potential impact on
+                our clients’ operations and reputation.
+              </p>
 
-          <p>
-            Whether advising on a discrete transaction or managing complex,
-            enterprise-wide legal challenges, our extensive experience within
-            the chemical manufacturing sector enables us to deliver solutions
-            tailored to the realities of our clients’ businesses.
-          </p>
-        </div>
+              <p>
+                Whether a matter is simple or complex, we pride ourselves on
+                providing the attention, diligence, and strategic focus our
+                clients expect. Our extensive background working with the
+                chemical manufacturing industry is what sets our team apart.
+              </p>
+            </div>
 
-        <Separator className="my-12" />
+            <Separator />
 
-        {/* SERVICES */}
-        <div>
-          <h2 className="text-3xl font-heading text-heading mb-6">
-            Representative Experience
-          </h2>
+            {/* PRACTICE CAPABILITIES */}
+            <div>
+              <h2 className="text-3xl font-heading text-heading mb-6">
+                Our Chemical Manufacturing Team’s Experience
+              </h2>
 
-          <ul className="space-y-3 text-lg text-paragraph list-disc list-inside">
-            <li>Commercial transactions and supply agreements</li>
-            <li>Mergers, acquisitions, and strategic investments</li>
-            <li>Intellectual property protection and licensing</li>
-            <li>Environmental regulation and compliance</li>
-            <li>ESG strategy, disclosure, and risk analysis</li>
-            <li>Logistics and transportation matters</li>
-            <li>Crisis response and incident management</li>
-            <li>General counsel services and enterprise risk management</li>
-            <li>Antitrust investigations and internal investigations</li>
-            <li>
-              Insurance matters, including coverage disputes and recovery
-              litigation
-            </li>
-            <li>Government affairs at the federal and state levels</li>
-          </ul>
-        </div>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-lg text-paragraph list-disc list-inside">
+                <li>Commercial transactions</li>
+                <li>Mergers & acquisitions</li>
+                <li>Intellectual property</li>
+                <li>Environmental regulation</li>
+                <li>ESG analysis</li>
+                <li>Logistics & transportation</li>
+                <li>Crisis response management</li>
+                <li>General counsel & risk management</li>
+                <li>Antitrust investigations & internal investigations</li>
+                <li>
+                  Insurance issues, including coverage disputes & insurance
+                  recovery litigation
+                </li>
+                <li>Government affairs at the federal & state level</li>
+              </ul>
+            </div>
 
-        <Separator className="my-12" />
+            <Separator />
 
-        {/* CTA */}
-        <div className="text-lg text-paragraph leading-relaxed">
-          <p>
-            If you are a chemical manufacturer seeking experienced legal
-            counsel, we invite you to contact a member of our Chemical
-            Manufacturing practice to discuss how we can support your business.
-          </p>
+            {/* CTA */}
+            <div className="space-y-4 text-lg text-paragraph leading-relaxed">
+              <p>
+                Are you a chemical manufacturer in need of legal representation?
+                Contact a member of the chemical manufacturing practice group at
+                Polsinelli to learn how our team can support your business.
+              </p>
+            </div>
+          </div>
+
+          {/* ================= RIGHT SIDEBAR ================= */}
+          <aside className="space-y-12">
+            <div>
+              <h3 className="text-xl font-heading text-heading mb-4">
+                Key Contacts
+              </h3>
+
+              <Separator className="mb-6" />
+
+              <div className="space-y-6">
+                {[
+                  {
+                    name: "William P. Sweeney",
+                    title: "Health Care Strategy",
+                    phone: "312.873.3664",
+                  },
+                  {
+                    name: "John D. Martini",
+                    title: "Health Care Transactions",
+                    phone: "215.267.3003",
+                  },
+                  {
+                    name: "Henry Talavera",
+                    title: "Health Care Compliance",
+                    phone: "214.661.5538",
+                  },
+                ].map((contact) => (
+                  <div key={contact.name} className="flex gap-4">
+                    <div className="h-14 w-14 bg-muted rounded-full" />
+                    <div className="text-sm">
+                      <p className="font-medium text-heading">{contact.name}</p>
+                      <p className="text-paragraph">{contact.title}</p>
+                      <p className="mt-1 text-paragraph">{contact.phone}</p>
+                      <a href="#" className="text-primary text-sm font-medium">
+                        Email
+                      </a>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-heading text-heading mb-4">
+                National Recognition
+              </h3>
+
+              <Separator className="mb-6" />
+
+              <div className="flex gap-6">
+                <div className="h-16 w-32 bg-muted flex items-center justify-center text-sm">
+                  Chambers
+                </div>
+                <div className="h-16 w-32 bg-muted flex items-center justify-center text-sm">
+                  Best Law Firms 2025
+                </div>
+              </div>
+            </div>
+          </aside>
         </div>
       </section>
     </main>
