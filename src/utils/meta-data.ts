@@ -4,7 +4,7 @@ const BASE_URL =
   process.env.NEXT_PUBLIC_FRONTEND_URL || "https://www.yohananmateuslaw.com";
 
 export const defaultMetadata: Metadata = {
-  title: "Yohanan Mateus Law | New York Business & Corporate Law Firm",
+  title: "Yohanan Mateus Law | New York Business & Corporate Law Firm", 
   description:
     "Yohanan Mateus Law is a New York–based law firm providing strategic counsel in corporate, commercial, real estate, and litigation matters. Trusted legal expertise for individuals and businesses.",
 
