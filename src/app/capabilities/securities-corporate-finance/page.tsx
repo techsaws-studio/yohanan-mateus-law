@@ -83,7 +83,7 @@ export default function Page() {
             <Separator />
 
             {/* RANKINGS */}
-            <div>
+            {/* <div>
               <h2 className="text-3xl font-heading text-heading mb-6">
                 Rankings & Recognition
               </h2>
@@ -94,7 +94,7 @@ export default function Page() {
                   in the 2025 “Best Law Firms” list by Best Lawyers®
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
 
           {/* ================= RIGHT COLUMN ================= */}

@@ -28,7 +28,7 @@ export default function Page() {
                 One of the most constant responsibilities clients face
                 throughout personal and professional milestones is securing
                 their family’s and business’s future. As life changes, estate
-                plans must evolve accordingly. At <strong>Polsinelli</strong>,
+                plans must evolve accordingly. At <strong>Yohanan Mateus Law</strong>,
                 we understand the importance of creating a meaningful legacy
                 while protecting the people and assets clients care about most.
               </p>
@@ -93,7 +93,7 @@ export default function Page() {
               </h2>
 
               <p>
-                Polsinelli’s Trust & Estate attorneys are widely respected in
+                Yohanan Mateus Law’s Trust & Estate attorneys are widely respected in
                 the field and maintain active membership in the American College
                 of Trust and Estate Counsel (ACTEC), a prestigious national
                 organization. Our attorneys focus exclusively on estate planning
@@ -136,7 +136,7 @@ export default function Page() {
             <Separator />
 
             {/* RANKINGS */}
-            <div>
+            {/* <div>
               <h2 className="text-3xl font-heading text-heading mb-6">
                 Rankings & Recognition
               </h2>
@@ -151,7 +151,7 @@ export default function Page() {
                   2024 edition of “Best Law Firms”
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
 
           {/* ================= RIGHT COLUMN ================= */}

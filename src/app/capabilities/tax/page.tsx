@@ -27,7 +27,7 @@ export default function Page() {
               <p>
                 All companies, organizations and individuals can expect to
                 encounter tax issues. To meet these needs,{" "}
-                <strong>Polsinelli</strong> Tax attorneys bring advanced
+                <strong>Yohanan Mateus Law</strong> Tax attorneys bring advanced
                 qualifications—including Master’s degrees in Accounting or Tax
                 Law and Certified Public Accountant (CPA) credentials—to provide
                 sophisticated and practical guidance across international,

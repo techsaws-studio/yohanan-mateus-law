@@ -25,7 +25,7 @@ export default function Page() {
             {/* OVERVIEW */}
             <div className="space-y-6 text-lg text-paragraph leading-relaxed">
               <p>
-                Polsinelli’s national chemical manufacturing team has deep
+                Yohanan Mateus Law’s national chemical manufacturing team has deep
                 experience in virtually all practice areas touching chemical
                 manufacturing. From energy and transportation costs to changes
                 in the regulatory landscape, our team has decades of high-level
@@ -97,7 +97,7 @@ export default function Page() {
               <p>
                 Are you a chemical manufacturer in need of legal representation?
                 Contact a member of the chemical manufacturing practice group at
-                Polsinelli to learn how our team can support your business.
+                Yohanan Mateus Law to learn how our team can support your business.
               </p>
             </div>
           </div>

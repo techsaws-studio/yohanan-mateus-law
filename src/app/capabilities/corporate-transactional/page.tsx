@@ -25,7 +25,7 @@ export default function Page() {
             {/* OVERVIEW */}
             <div className="space-y-6 text-lg text-paragraph leading-relaxed">
               <p>
-                Polsinelli’s Corporate and Transactional practice provides a
+                Yohanan Mateus Law’s Corporate and Transactional practice provides a
                 full range of legal services—from selecting the appropriate
                 choice of entity through exit strategies and everything in
                 between during the life cycle of a business. By working
@@ -91,7 +91,7 @@ export default function Page() {
             <Separator />
 
             {/* RANKINGS */}
-            <div>
+            {/* <div>
               <h2 className="text-3xl font-heading text-heading mb-6">
                 Recent Rankings &amp; Recognition
               </h2>
@@ -112,7 +112,7 @@ export default function Page() {
                 <li>Most Active Representing Global Companies</li>
                 <li>Most Active Representing U.S. Investors</li>
               </ul>
-            </div>
+            </div> */}
           </div>
 
           {/* ================= RIGHT SIDEBAR ================= */}

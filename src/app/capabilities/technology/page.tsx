@@ -34,7 +34,7 @@ export default function Page() {
               </p>
 
               <p>
-                <strong>Polsinelli</strong> shares this forward-looking mindset.
+                <strong>Yohanan Mateus Law</strong> shares this forward-looking mindset.
                 Our technology lawyers play an integral role in helping shape
                 the future of the industry through strategic guidance around the
                 creation, acquisition, protection and commercial exploitation of
@@ -135,7 +135,7 @@ export default function Page() {
             <Separator />
 
             {/* RANKINGS */}
-            <div>
+            {/* <div>
               <h2 className="text-3xl font-heading text-heading mb-6">
                 Rankings & Recognition
               </h2>
@@ -150,7 +150,7 @@ export default function Page() {
                   Litigation by BTI Consulting Group
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
 
           {/* ================= RIGHT COLUMN ================= */}

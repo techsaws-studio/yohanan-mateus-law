@@ -92,7 +92,7 @@ export default function Page() {
             <Separator />
 
             {/* RANKINGS */}
-            <div>
+            {/* <div>
               <h2 className="text-3xl font-heading text-heading mb-6">
                 Rankings & Recognition
               </h2>
@@ -106,7 +106,7 @@ export default function Page() {
                   Ranked and recognized by Chambers USA for Real Estate Law
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
 
           {/* ================= RIGHT COLUMN ================= */}

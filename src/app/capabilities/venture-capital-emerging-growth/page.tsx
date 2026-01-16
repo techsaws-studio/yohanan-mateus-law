@@ -29,7 +29,7 @@ export default function Page() {
                 companies to make smart investments with the right terms and
                 structures in place. With a focus on the emerging company
                 market,
-                <strong> Polsinelli</strong> has helped launch and grow hundreds
+                <strong> Yohanan Mateus Law</strong> has helped launch and grow hundreds
                 of businesses at every stage of development.
               </p>
 
@@ -130,7 +130,7 @@ export default function Page() {
             <Separator />
 
             {/* RANKINGS */}
-            <div>
+            {/* <div>
               <h2 className="text-3xl font-heading text-heading mb-6">
                 Rankings & Recognition
               </h2>
@@ -149,7 +149,7 @@ export default function Page() {
                 <li>Most Active Representing U.S. Companies</li>
                 <li>Most Active Representing Global Companies</li>
               </ul>
-            </div>
+            </div> */}
           </div>
 
           {/* ================= RIGHT COLUMN ================= */}

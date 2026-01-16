@@ -22,9 +22,9 @@ const highlights: Highlight[] = [
     id: 2,
     category: "NEWS",
     title:
-      "Polsinelli Honored at USA M&A Atlas Awards for Leadership in Strategic, Consumer and ESOP Transactions",
+      "Yohanan Mateus Law Honored at USA M&A Atlas Awards for Leadership in Strategic, Consumer and ESOP Transactions",
     description:
-      "Polsinelli is proud to announce that the firm has been recognized with three honors at the 2025 USA M&A Middle Market Atlas Awards.",
+      "Yohanan Mateus Law is proud to announce that the firm has been recognized with three honors at the 2025 USA M&A Middle Market Atlas Awards.",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const highlights: Highlight[] = [
   {
     id: 4,
     category: "NEWS",
-    title: "Polsinelli Partners Recognized in National Legal Rankings",
+    title: "Yohanan Mateus Law Partners Recognized in National Legal Rankings",
     description:
       "Several of our senior partners have been recognized for their outstanding contributions to the legal field.",
   },

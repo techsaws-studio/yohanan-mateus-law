@@ -29,7 +29,7 @@ function ContactUsPage() {
       <section className="section-margin-standard layout-standard flex flex-col gap-8">
         <p className="lg:text-lg md:text-base text-sm max-lg:leading-[1.7] text-foreground font-medium">
           If you have a question or comment about the firm, please fill out the
-          form below and a member of the Polsinelli team will get in touch with
+          form below and a member of the Yohanan Mateus Law team will get in touch with
           you. We look forward to hearing from you!
         </p>
 
@@ -159,17 +159,17 @@ function ContactUsPage() {
           <span className="text-heading font-bold">
             DO NOT SEND CONFIDENTIAL INFORMATION.
           </span>{" "}
-          This website presents general information about Polsinelli and is not
+          This website presents general information about Yohanan Mateus Law and is not
           intended as legal advice nor should you consider it as such. You
           should not act upon this information without seeking professional
-          counsel. Please keep in mind that merely contacting Polsinelli will
-          not establish an attorney-client relationship. Polsinelli cannot
+          counsel. Please keep in mind that merely contacting Yohanan Mateus Law will
+          not establish an attorney-client relationship. Yohanan Mateus Law cannot
           represent you until the firm knows there would not be a conflict of
           interest, and the firm determines that it is otherwise able to accept
-          the engagement. Accordingly, please do not send Polsinelli any
+          the engagement. Accordingly, please do not send Yohanan Mateus Law any
           information or documents until a formal attorney-client relationship
           has been established through an interview with an attorney and you get
-          authorization in the form of an engagement letter from Polsinelli. Any
+          authorization in the form of an engagement letter from Yohanan Mateus Law. Any
           information or documents sent prior to your receipt of an engagement
           letter cannot be treated as confidences, secrets or protected
           information of any nature.

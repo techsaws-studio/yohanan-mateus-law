@@ -25,7 +25,7 @@ export default function Page() {
             {/* INTRO */}
             <div className="space-y-6 text-lg text-paragraph leading-relaxed">
               <p>
-                <strong>Polsinelli</strong>’s Sports & Entertainment attorneys
+                <strong>Yohanan Mateus Law</strong>’s Sports & Entertainment attorneys
                 represent athletes, teams, leagues, production companies,
                 studios, media entities and investors across the full spectrum
                 of sports, entertainment and related commercial transactions.

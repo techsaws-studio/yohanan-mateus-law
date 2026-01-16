@@ -25,7 +25,7 @@ export default function Page() {
             {/* INTRO */}
             <div className="space-y-6 text-lg text-paragraph leading-relaxed">
               <p>
-                The Telecommunications Practice at <strong>Polsinelli</strong>{" "}
+                The Telecommunications Practice at <strong>Yohanan Mateus Law</strong>{" "}
                 provides business and regulatory guidance for telecommunications
                 networks and service providers in the same manner our telecom
                 clients deliver services to their customers — fast-paced,
@@ -74,7 +74,7 @@ export default function Page() {
               </h2>
 
               <p>
-                Polsinelli represents a wide range of telecommunications
+                Yohanan Mateus Law represents a wide range of telecommunications
                 providers and industry participants, including ILECs, CLECs and
                 IXCs, as well as producers and consumers of telecommunications
                 services.

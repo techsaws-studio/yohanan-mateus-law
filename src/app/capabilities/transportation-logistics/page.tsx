@@ -28,7 +28,7 @@ export default function Page() {
                 The transportation industry is evolving rapidly, creating a
                 critical need for innovative service models and forward-thinking
                 corporate partnerships. Drawing on decades of experience across
-                multiple industries, <strong>Polsinelli</strong>’s
+                multiple industries, <strong>Yohanan Mateus Law</strong>’s
                 Transportation & Logistics attorneys advise clients on complex
                 legal, regulatory and operational challenges.
               </p>

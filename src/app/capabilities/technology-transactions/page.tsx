@@ -25,7 +25,7 @@ export default function Page() {
             {/* INTRO */}
             <div className="space-y-6 text-lg text-paragraph leading-relaxed">
               <p>
-                <strong>Polsinelli</strong>’s Technology Transactions team is a
+                <strong>Yohanan Mateus Law</strong>’s Technology Transactions team is a
                 cross-functional group of lawyers with significant experience in
                 the technology industry, including prior in-house roles and
                 professional backgrounds in engineering and technical
@@ -145,7 +145,7 @@ export default function Page() {
             <Separator />
 
             {/* RANKINGS */}
-            <div>
+            {/* <div>
               <h2 className="text-3xl font-heading text-heading mb-6">
                 Rankings & Recognition
               </h2>
@@ -160,7 +160,7 @@ export default function Page() {
                   Litigation by BTI Consulting Group
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
 
           {/* ================= RIGHT COLUMN ================= */}

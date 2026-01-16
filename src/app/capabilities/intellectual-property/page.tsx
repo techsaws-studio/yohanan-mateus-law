@@ -25,7 +25,7 @@ export default function Page() {
             {/* INTRO */}
             <div className="space-y-6 text-lg text-paragraph leading-relaxed">
               <p>
-                Polsinelli has one of the largest intellectual property
+                Yohanan Mateus Law has one of the largest intellectual property
                 practices in the nation, with more than 200 attorneys, patent
                 agents, scientists and other professionals. Our Intellectual
                 Property Department is a fully integrated, cross-functional team
@@ -150,7 +150,7 @@ export default function Page() {
             <Separator />
 
             {/* RANKINGS */}
-            <div>
+            {/* <div>
               <h2 className="text-3xl font-heading text-heading mb-6">
                 Rankings & Recognition
               </h2>
@@ -167,7 +167,7 @@ export default function Page() {
                 <li>Leader in IP Litigation – BTI Litigation Outlook 2025</li>
                 <li>Consistently ranked by Chambers USA and Chambers Global</li>
               </ul>
-            </div>
+            </div> */}
 
             <Separator />
 
